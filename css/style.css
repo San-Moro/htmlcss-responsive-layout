@@ -82,23 +82,9 @@ header .menu {
 }
 
 /* MAIN */
-/* Home section */
-#home {
+/* about section */
+#about{
     padding-top: 2em;
-}
-
-/* jumbo section */
-#jumbo {
-    width: 100%;
-    background-color: var(--secondary-col);
-    color: white;
-
-    /* DEBUG */
-    height: 400px;
-}
-
-#jumbo .planning {
-    margin: 1.5em;
 }
 
 /* MEDIA QUERIES */
@@ -106,20 +92,20 @@ header .menu {
 
 @media screen and (min-width: 768px) {
     /* MAIN */
-    /* Home section */
-    #home .cards{
+    /* About section */
+    #about .cards{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 1.5rem;
     }
 
-    #home .card {
+    #about .card {
         width: calc(100% / 3 - (1.5rem * 2 / 3));
         margin-bottom: 1em 0;
     }
 
-    #home .card:first-child {
+    #about .card:first-child {
         width: calc(100% / 3 * 2 - (1.5rem / 3));
     } 
 }
