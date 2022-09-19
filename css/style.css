@@ -87,6 +87,21 @@ header .menu {
     padding-top: 2em;
 }
 
+/* jumbo section */
+#jumbo {
+    width: 100%;
+    background-color: var(--secondary-col);
+    color: white;
+    padding-top: 2em;
+
+    /* DEBUG */
+    height: 400px;
+}
+
+#jumbo .planning {
+    margin: 1.5em;
+}
+
 /* MEDIA QUERIES */
 /* Tablet 768px */
 
@@ -138,5 +153,13 @@ header .menu {
 
     .menu li {
         margin-left: 1.5em;
+    }
+
+    /* MAIN */
+    /* Jumbo section */
+
+    #jumbo .container {
+        width: 60%;
+        display: flex;
     }
 }
