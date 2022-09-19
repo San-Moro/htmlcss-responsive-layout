@@ -123,6 +123,15 @@ header .menu {
     #about .card:first-child {
         width: calc(100% / 3 * 2 - (1.5rem / 3));
     } 
+
+    /* Testimonials section */
+    #testimonials .card {
+        display: flex;
+    }
+
+    #testimonials .container {
+        padding-top: 2em;
+    }
 }
 
 /* MEDIA QUERIES */
