@@ -167,8 +167,46 @@ header .menu {
     border-radius: 50%;
 }
 
+/* Testimonials section */
+
 #testimonials .container {
     padding-top: 2em;
+}
+
+.text-testimonials {
+    text-align: center;
+}
+
+.text-testimonials h2{
+    color: var(--secondary-col);
+}
+
+.text-testimonials p {
+    font-size: 1.6rem;
+    line-height: 1.5em;
+}
+
+#testimonials .card {
+    background-color: var(--secondary-col);
+    text-align: center;
+}
+
+#testimonials .image-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+#testimonials .text-card p {
+    font-size: 1.6rem;
+    line-height: 1.5em;
+    color: white;
+}
+
+.text-card p:last-child {
+    margin-top: 1.5em;
+    font-weight: 600;
 }
 
 /* Benefits section */
@@ -222,6 +260,18 @@ header .menu {
         display: flex;
     }
 
+    #testimonials .image-card img {
+        width: 400px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%
+    }
+
+    #testimonials .text-card {
+        text-align: start;
+        margin-left: 2em;
+    }
+
     /* Benefits section */
     #benefits .cards {
         display: grid;
@@ -272,6 +322,15 @@ header .menu {
     #jumbo .container {
         width: 60%;
         display: flex;
+    }
+
+    /* Testimonials section */
+
+    #testimonials .image-card img {
+        width: 260px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%
     }
 
     /* Benefits section */
