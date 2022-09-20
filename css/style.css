@@ -110,6 +110,23 @@ header .menu {
     margin: 0 auto;
 }
 
+/* About us section */
+#about-us .columns {
+    padding: 1em;
+    margin: 0 auto;
+}
+
+#about-us .col{
+    padding: 2em 0;
+}
+
+#about-us .col img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 
 /* MEDIA QUERIES */
 /* Tablet 768px */
@@ -145,6 +162,9 @@ header .menu {
     }
 
     /* About us section */
+    #about-us .columns {
+        display: flex;
+    }
     
 }
 
