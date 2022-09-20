@@ -53,8 +53,6 @@ img {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    /* DEBUG */
-    background-color: var(--primary-col);
 }
 
 a {
@@ -82,9 +80,10 @@ h2 {
     padding: 2.5em;
     margin: 1em;
 }
+
 .text-card {
     font-size: 1.6rem;
-    color: var(--text-col);
+    color: var(--dark-gray);
     margin-top: 1em;
 }
 
@@ -122,6 +121,10 @@ header .menu {
     background-color: var(--primary-col-light);
 }
 
+#about .card:first-child {
+    padding: 2.5em 2.5em 0 2.5em;
+}
+
 #about h3 {
     color: var(--primary-col);
     margin-bottom: 1em;
@@ -132,6 +135,10 @@ header .menu {
     line-height: 1.5em;
     color: var(--dark-gray);
     font-weight: 600;
+}
+
+#about .btn {
+    background-color: var(--primary-col);
 }
 
 #about .card-small {
@@ -213,6 +220,37 @@ header .menu {
 #benefits .container {
     padding-top: 2em;
     margin: 0 auto;
+}
+
+#benefits .container h2 {
+    margin: 0 .5em;
+    text-align: center;
+}
+
+#benefits .card {
+    background-color: white;
+}
+
+#benefits h4 {
+    color: var(--secondary-col);
+    font-size: 5rem;
+    margin: .5em 0;
+}
+
+#benefits h3 {
+    color: var(--secondary-col);
+    font-size: 2.5rem;
+}
+
+#benefits .text-card p {
+    font-size: 1.6rem;
+    line-height: 1.5em;
+    color: var(--dark-gray);
+    font-weight: 300;
+}
+
+#benefits .btn {
+    background-color: var(--secondary-col);
 }
 
 /* About us section */
