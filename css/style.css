@@ -260,7 +260,20 @@ header .menu {
 }
 
 #about-us .col{
-    padding: 2em 0;
+    padding-bottom: 2em;
+}
+
+#about-us .col h2 {
+    color: var(--secondary-col);
+    font-size: 4rem;
+}
+
+#about-us .col p {
+    font-size: 1.6rem;
+    line-height: 2em;
+    color: var(--dark-gray);
+    font-weight: 300;
+    padding-bottom: 1em;
 }
 
 #about-us .col img {
@@ -268,6 +281,18 @@ header .menu {
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+#about-us p.special-cit {
+    color: var(--secondary-col);
+    font-size: 2rem;
+    line-height: 1.5em;
+    font-weight: 700;
+    margin-top: 2em;
+}
+
+#about-us .btn {
+    background-color: var(--secondary-col);
 }
 
 
@@ -317,8 +342,26 @@ header .menu {
     }
 
     /* About us section */
+    #about-us .container {
+        padding: 2.5em;
+    }
+
     #about-us .columns {
         display: flex;
+    }
+
+    #about-us .col:first-child {
+        padding-right: 3em;
+    }
+
+    #about-us .col-small {
+        width: 85%;
+        padding-left: 3em;
+        padding-top: 5em;
+    }
+
+    #about-us p.special-cit {
+        padding-right: 1em ;
     }
     
 }
