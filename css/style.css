@@ -28,6 +28,13 @@ img {
     max-width: 100%;
 }
 
+#jumbo, #benefits {
+    width: 100%;
+    background-color: var(--secondary-col);
+    color: white;
+    padding-top: 2em;
+}
+
 /* Layout */
 .container {
     width: 100%;
@@ -83,24 +90,26 @@ header .menu {
 
 /* MAIN */
 /* about section */
-#about{
+#about .container {
     padding-top: 2em;
 }
 
 /* jumbo section */
-#jumbo {
-    width: 100%;
-    background-color: var(--secondary-col);
-    color: white;
-    padding-top: 2em;
-
-    /* DEBUG */
-    height: 400px;
-}
 
 #jumbo .planning {
     margin: 1.5em;
 }
+
+#testimonials .container {
+    padding-top: 2em;
+}
+
+/* Benefits section */
+#benefits .container {
+    padding-top: 2em;
+    margin: 0 auto;
+}
+
 
 /* MEDIA QUERIES */
 /* Tablet 768px */
@@ -129,10 +138,16 @@ header .menu {
         display: flex;
     }
 
-    #testimonials .container {
-        padding-top: 2em;
+    /* Benefits section */
+    #benefits .cards {
+        display: grid;
+        grid-template-columns: auto auto;
     }
+
+    /* About us section */
+    
 }
+
 
 /* MEDIA QUERIES */
 /* Desktop 992px */
@@ -171,4 +186,12 @@ header .menu {
         width: 60%;
         display: flex;
     }
+
+    /* Benefits section */
+
+    #benefits .cards {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    
 }
